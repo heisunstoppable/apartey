@@ -1,0 +1,781 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_0{
+    padding: 10px;
+    outline: 1px solid black;
+    width: fit-content;
+}
+.navigation{
+    background-color: whitesmoke;
+    display: flex;
+}
+.globe{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 35px;
+    font-family: calibri;
+}
+.globe1{
+    display: flex;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 35%;
+}
+.globe1 img{
+    width: 20px;
+    /* padding:10px; */
+}
+.globe1 h2{
+    margin-left: 2px;
+    color: black;
+}
+.globe2{
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+    color: black;
+    font-family: calibri;
+    margin-left: 35%;
+}
+.globe2 li{
+    padding: 10px;
+}
+.globe2 a{
+    text-decoration: none;
+    color: black;
+}
+.globe3{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    font-family: calibri;
+    font-size: 12px;
+    /* margin-left: 50%; */
+}
+.globe3:hover{
+    background-color: rgb(87, 86, 86);
+    text-decoration: underline;
+}
+.apart1{
+    /* background-color: black; */
+    background-image: url(./Large-new.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.apart{
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0.383);
+}
+.apart h1{
+    color: white;
+    text-align: center;
+    /* margin-left: 40%; */
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+}
+.apart p{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.ado{
+    padding: 20px;
+    font-size: 20px;
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 55px;
+}
+.ado-s{
+    padding: 20px;
+    background-color: green;
+    color: white;
+    outline: 1px solid green;
+    font-size: 20px;
+}
+.mainh{
+    margin-top: 50px;
+    font-family: Calibri;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    /* font-stretch; */
+}
+.explore1{
+    display: flex;
+    padding-top: 20px;
+}
+.explore{
+    text-align: center;
+    /* outline: 1px solid black; */
+    width:15%;
+    overflow: hidden;
+    transition: 500ms;
+    margin: 10px -13% 0px 15%;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.612),
+    0px 2px 5px 0px rgba(0, 0, 0, 0.611);
+    /* padding: 5px; */
+}
+.explore:hover{
+    scale: 105%;
+}
+.p1{
+    /* text-align: center; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(49, 49, 49);
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.p2{
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.flexb{
+    background-image:url(./parklime.jpg);
+    height: 600px;
+    width: 100%;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flexb1{
+    background-image:url(./parklime1.jpg);
+    height: 600px;
+    width: 100%;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flexb2{
+    background-image:url(./parklime12.jpg);
+    height: 600px;
+    width: 100%;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flexb3{
+    background-image:url(./parklime2.jpg);
+    height: 600px;
+    width: 100%;
+    height:200px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.view1{
+    margin: 50px 0px 0px 0px;
+}
+.view{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    width:fit-content;
+    padding: 10px 25px 10px 25px;
+    margin-left: 45%;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.view:hover{
+    background-color: rgb(5, 80, 5);
+    transition: all .5s;
+}
+.main2 h3{
+    text-align: center;
+    font-family: calibri;
+    font-size: 35px;
+    margin-top: 45px;
+    font-weight: 300;
+}
+.main2p{
+    /* color: blue; */
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    font-weight: 200;
+}
+.simple1{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+}
+.simple{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    margin-left: 5%;
+    width: 45%;
+}
+.simple h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 100px 0px 0px 15%;
+}
+.simple p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    color: rgb(110, 110, 110);
+}
+.sim{
+    margin-top: 20px;
+}
+.simple a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.simple a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.simple2{
+    background-image: url(./laptop.jpeg);
+    height: 350px;
+    width: 45%;
+}
+
+.section1 h3{
+    text-align: center;
+    font-family: calibri;
+    font-size: 45px;
+    margin-top: 45px;
+    font-weight: 500;
+}
+.sectionp{
+    /* color: blue; */
+    text-align: center;
+    font-family: calibri;
+    font-size: 35px;
+    /* margin-left: 5%; */
+    font-weight: 200;
+}
+.simplep{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+}
+.simpled{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    margin-left: 5%;
+    width: 45%;
+}
+.simpled h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.simpled p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.sim1{
+    margin-top: 20px;
+}
+.simpled a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.simpled a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.simple3{
+    background-image: url(./luxury.jpg);
+    height: 350px;
+    width: 45%;
+    background-size: 100%;
+}
+.maintop h3{
+    text-align: center;
+    font-family: calibri;
+    font-size: 35px;
+    margin-top: 45px;
+    font-weight: 400;
+}
+.sectionq{
+    /* color: blue; */
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    /* margin-left: 5%; */
+    font-weight: 200;
+}
+
+.rental{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+}
+.rental1{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    margin-left: 5%;
+    width: 45%;
+}
+.rental1 h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.rental1 p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.sim1{
+    margin-top: 20px;
+}
+.rental1 a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.rental1 a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.rentalimg{
+    background-image: url(./luxury1.jpg);
+    height: 350px;
+    width: 45%;
+    background-size: 100%;
+}
+.rentalsec{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: -50px;
+}
+.rentalsec1{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    width: 45%;
+}
+.rentalsec1 h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.rentalsec1 p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.sim1{
+    margin-top: 20px;
+}
+.rentalsec1 a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.rentalsec1 a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.rentalsecimg{
+    background-image: url(./couple1.jpg);
+    height: 350px;
+    width: 45%;
+    margin-left: 5%;
+    background-size: 100%;
+}
+
+
+
+.last h3{
+    text-align: center;
+    font-family: calibri;
+    font-size: 35px;
+    margin-top: 45px;
+    font-weight: 400;
+}
+.sectionk{
+    /* color: blue; */
+    text-align: center;
+    font-family: calibri;
+    font-size: 25px;
+    /* margin-left: 5%; */
+    font-weight: 200;
+}
+
+.residents{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: 30px;
+}
+.residents1{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    margin-left: 5%;
+    width: 45%;
+}
+.residents1 h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.residents1 p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.sim1{
+    margin-top: 20px;
+}
+.residents1 a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.residents1 a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.residentsimg{
+    background-image: url(./couple2.jpg);
+    height: 350px;
+    width: 45%;
+    background-size: 100%;
+}
+.manager{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: -50px;
+}
+.manager11{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    width: 45%;
+}
+.manager11 h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.manager11 p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.sim1{
+    margin-top: 20px;
+}
+.manager11 a{
+    font-size: 20px;
+    margin: 200px 0px 0px 15%;
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.manager11 a:hover{
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: calibri;
+}
+.manager1img{
+    background-image: url(./laptop4.jpeg);
+    height: 350px;
+    width: 45%;
+    margin-left: 5%;
+    background-size: 100%;
+}
+
+.manage11{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    width: 45%;
+    margin-top: -100px;
+    margin-left: 5%;
+}
+.manage11 h2{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    padding-top: 20%;
+    margin: 0px 0px 0px 15%;
+}
+.manage11 p{
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.manage11 a{
+    font-size: 20px;
+    /* margin: 200px 0px 0px 0%; */
+    color: lightskyblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: calibri;
+}
+.manage11 a:hover{
+    text-decoration: underline;
+}
+
+
+
+.reside{
+    /* outline: 2px solid red; */
+    display: flex;
+    height: 400px;
+    margin-top: -50px;
+}
+.reside1{
+    height: 350px;
+    background-color:rgb(225, 225, 225);
+    margin-left: 5%;
+    width: 45%;
+}
+.recipe{
+    font-family: calibri;
+    font-weight:200;
+    font-size: 35px;
+    margin: 50px 0px 0px 15%;
+}
+.recipe1 {
+    font-family: calibri;
+    font-size: 20px;
+    margin: 10px 0px 0px 15%;
+    /* padding: 15px 0px 0px 0px; */
+    color: rgb(110, 110, 110);
+}
+.resideimg{
+    background-image: url(./laptop2.webp);
+    height: 350px;
+    width: 45%;
+    background-size: 100%;
+}
+.condos{
+    text-align: center;
+    font-size: 35px;
+    font-family: calibri;
+}
+.condos a{
+    color: lightskyblue;
+}
+.topren4{
+    margin-top: 50px;
+    outline: 1px solid black;
+    height: 450px;
+}
+.topren{
+    /* outline: 1px solid black; */
+    background-color: white;
+    display: flex;
+}
+.topmark{
+    width:50%;
+    border-right: 1px solid rgb(97, 97, 97);
+    display: flex;
+    height:fit-content;
+    margin-top: 55px;
+}
+.links{
+    margin: 0px 50px 0px 10%;
+}
+.links li{
+    list-style-type: none;
+}
+.links li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: calibri;
+}
+.links li a:hover{
+    text-decoration: underline;
+}
+
+.topmark1{
+    width:50%;
+    display: flex;
+    margin-top: 55px;
+}
+.vi1ew{
+    margin-left: 5%;
+    font-size: 15px;
+    text-decoration: none;
+}
+.vi1ew:hover{
+    text-decoration: underline;
+    transition: all .5s;
+
+}
+footer{
+    height: 500px;
+    display: flex;
+    background-color: azure;
+}
+.footerlogo{
+    /* outline: 2px solid red; */
+    width: 20%;
+    height: fit-content;
+    margin: 50px 0px 0px 5%;
+}
+.footera{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+.footera img{
+    width: 45px;
+    height: 45px;
+    padding: 5px 0px 0px 5px;
+}
+.footera h1{
+    padding-left: 15px;
+    font-size: 45px;
+}
+.footerlogo p{
+    margin-left: 45%;
+    font-family: sans-serif;
+}
+.ul{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+.ul li{
+    list-style-type: none;
+    padding: 5px;
+    /* color: black; */
+}
+.ul li a{
+    color: black;
+    text-decoration: none;
+}
+.equal{
+    text-decoration: none;
+    color: black;
+    margin-left: 35%;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.advertise1{
+    /* outline: 2px solid black; */
+    margin: 50px 0px 0px 65px;
+    height: fit-content;
+}
+.advertise1 h2{
+    font-family: calibri;
+    font-size: 20px;
+}
+.advertise{
+    /* outline: 2px solid black; */
+    width:fit-content;
+}
+.advertise li{
+    list-style-type: none;
+    padding: 2px;
+}
+.advertise li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-family: calibri;
+    font-size: 20px;
+}
+.advertise li a:hover{
+    text-decoration: underline;
+
+}
+.playstore {
+    width:20%;
+    outline: 2px solid black;
+    display: flex;
+    /* margin-left: 15%; */
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    margin: 15px -12% 0px  15%;
+    background-color: black;
+}
+.playstore img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    /* outline: 2px solid red; */
+}
+.playstore h2{
+    margin: 5px 0px 0px 10px;
+    font-size: 15px;
+    font-family: calibri;
+}
+.playstore h3{
+    margin: 0px 0px 0px 10px;
+    /* justify-self:right; */
+    font-size: 20px;
+    font-family: calibri;
+}
+.download{
+    /* outline: 2px solid red; */
+    display: flex;
+}
